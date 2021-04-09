@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/joke-generator/static/css/main.15891832.chunk.css",
+    "main.js": "/joke-generator/static/js/main.ffdda95a.chunk.js",
+    "main.js.map": "/joke-generator/static/js/main.ffdda95a.chunk.js.map",
+    "runtime-main.js": "/joke-generator/static/js/runtime-main.fd02d2af.js",
+    "runtime-main.js.map": "/joke-generator/static/js/runtime-main.fd02d2af.js.map",
+    "static/js/2.6bf52cd1.chunk.js": "/joke-generator/static/js/2.6bf52cd1.chunk.js",
+    "static/js/2.6bf52cd1.chunk.js.map": "/joke-generator/static/js/2.6bf52cd1.chunk.js.map",
+    "static/js/3.62ef129e.chunk.js": "/joke-generator/static/js/3.62ef129e.chunk.js",
+    "static/js/3.62ef129e.chunk.js.map": "/joke-generator/static/js/3.62ef129e.chunk.js.map",
+    "index.html": "/joke-generator/index.html",
+    "static/css/main.15891832.chunk.css.map": "/joke-generator/static/css/main.15891832.chunk.css.map",
+    "static/js/2.6bf52cd1.chunk.js.LICENSE.txt": "/joke-generator/static/js/2.6bf52cd1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/joke-generator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd02d2af.js",
+    "static/js/2.6bf52cd1.chunk.js",
+    "static/css/main.15891832.chunk.css",
+    "static/js/main.ffdda95a.chunk.js"
+  ]
+}
