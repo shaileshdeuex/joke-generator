@@ -1,22 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Demo from './Demo';
+import { useEffect, useState } from 'react';
 
-function App() {
+function App () {
+  const [joke, setJoke] = useState({});
+  useEffect(() => {
+    fetchAPI();
+  }, []);
+
+  const fetchAPI = async () => {
+    const api = 'https://official-joke-api.appspot.com/random_joke';
+    fetch(api)
+      .then((res) => res.json())
+      .then((data) => setJoke(data));
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Demo {...joke} fetchAPI={fetchAPI}/>
       </header>
     </div>
   );
